@@ -1,11 +1,10 @@
 {
   "name": "PWA TEST",
   "short_name": "PWA",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#FFF",
+  "background_color": "#FFF",
   "display": "standalone",
-  "Scope": "/",
-  "start_url": "/?utm_source=pwa",
+  "start_url": "./?utm_source=pwa",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
