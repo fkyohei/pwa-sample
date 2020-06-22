@@ -15,7 +15,8 @@ https環境下での動作確認をしたい、かつ、スマホ実機でも確
 - name: スプラッシュ画面に表示されるアプリケーション名
 - short_name: ホームに表示されるアプリケーション略名
 - theme_color: アプリケーション上部ナビゲーションバーの色(スプラッシュ画面表示時だけしか反映されないっぽい挙動)
-- background_color: スプラッシュ画面の背景色
+- background_color: スプラッシュ画面の背景色(スプラッシュ画面表示時だけしか反映されないっぽい挙動)
 - display: browser, minimal-ui, standalone, fullscreenの4種類があり、standaloneが一番ネイティブアプリに近いUI
 - アイコン自動生成: [https://app-manifest.firebaseapp.com/](https://app-manifest.firebaseapp.com/)
-- 一度ホーム画面に追加すると、manifest.jsonを変更しても自動で更新されない（例えば色変更しても反映されなかった。変更方法があるのかもしれない）
+- 一度ホーム画面に追加すると、manifest.jsonを変更しても自動で更新されない（例えば色変更しても反映されなかった。変更方法があるのかもしれない）  
+→ 反映されるまでに少し時間がかかったが更新はされた
