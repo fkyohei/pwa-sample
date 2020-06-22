@@ -1,7 +1,7 @@
 // 参考URL: https://qiita.com/OMOIKANESAN/items/13a3dde525e33eb608ae
 
 // キャッシュを識別する名前
-const CACHE_NAME = 'pwa_test_cache_v1';
+const CACHE_NAME = 'pwa_test_cache_v2';
 
 // 有効キャッシュ一覧
 const CACHE_KEYS = [
@@ -12,7 +12,7 @@ const CACHE_KEYS = [
 const TARGET_URL = [
     "index.html",
     "index.js",
-    "index.css",
+    "common.css",
     "second.html"
 ];
 
